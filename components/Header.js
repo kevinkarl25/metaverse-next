@@ -17,7 +17,7 @@ function Header() {
             layout="fill"
             className="rounded-full"
             objectFit="cover"
-            src="/profile_pic_png3-removebg.png"
+            src="/profile_pic.jpg"
           />
         </div>
 

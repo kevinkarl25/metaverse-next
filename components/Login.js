@@ -14,8 +14,8 @@ function Login() {
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         <Image
           src="/profile_pic.jpg"
-          height={250}
-          width={250}
+          height={200}
+          width={200}
           className="rounded-full object-cover"
         />
         {/* <h1 className="text-5xl">Welcome to Metaverse</h1> */}

@@ -13,7 +13,7 @@ export default function Home() {
     <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-fuchsia-900">
       <Head>
         <title>Metaverse-ish: Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/kktoon-icon.ico" />
       </Head>
 
       <div className="max-w-screen-2xl mx-auto">

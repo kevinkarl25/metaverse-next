@@ -8,7 +8,7 @@ function Login() {
     <div className="relative bg-white text-white">
       <Head>
         <title>Metaverse-ish: Login</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/kktoon-icon.ico" />
       </Head>
       <h1>I am the login screen</h1>
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">

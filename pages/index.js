@@ -2,6 +2,7 @@ import Head from "next/head";
 import Login from "../components/Login";
 import { useMoralis } from "react-moralis";
 import Header from "../components/Header";
+import Messages from "../components/Messages";
 
 export default function Home() {
   const { isAuthenticated } = useMoralis();
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-fuchsia-900">
       <Head>
-        <title>Metaverse-ish</title>
+        <title>Metaverse-ish: Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,6 +21,8 @@ export default function Home() {
         <Header />
 
         {/* Messages */}
+        <Messages />
+
         {/* Footer */}
       </div>
     </div>

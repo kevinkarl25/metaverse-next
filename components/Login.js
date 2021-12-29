@@ -8,15 +8,16 @@ function Login() {
       <h1>I am the login screen</h1>
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         <Image
-          src="/profile_pic_png3-removebg.png"
+          src="/profile_pic.jpg"
           height={250}
           width={250}
           className="rounded-full object-cover"
         />
+        {/* <h1 className="text-5xl">Welcome to Metaverse</h1> */}
 
         <button
           onClick={authenticate}
-          className="bg-black rounded-lg p-5 font-bold animate-pulse"
+          className="bg-black rounded-lg p-5 font-bold animate-pulse hover:opacity-75"
         >
           Login to Metaverse
         </button>
